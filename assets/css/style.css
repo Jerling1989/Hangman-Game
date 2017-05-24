@@ -1,0 +1,53 @@
+body {
+	text-align: center;
+	background-image: url("../images/background.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 80%;
+	margin: 16%;
+
+}
+
+h1 {
+	font-family: 'Bangers', cursive;
+	font-size: 100px;
+}
+
+p {
+	font-family: 'Bangers', cursive;
+	font-size: 40px;
+}
+
+#wrapper {
+	display: inline;
+	position: relative;
+	width: 80%
+	margin: 15%;
+}
+
+
+#gameTitle {
+	display: inline;
+	position: relative;
+	width: 80%;
+}
+
+#instructions {
+	display: inline;
+	position: relative;
+	width: 80%;
+}
+
+#actorImage {
+	display: inline;
+	position: relative;
+	content: url('../images/placeholder.jpg');
+	width: 30%;
+	margin: 5% auto;
+}
+
+#layout {
+	display: inline;
+	position: relative;
+	width: 80%;
+}
