@@ -5,33 +5,37 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
-
+	
 </head>
 <body>
 	
-	<div id="wrapper">
-		<div id="gameTitle">
+	<div class="general">
+		<div class="general">
 			<h1>COWBOY HANGMAN</h1>
 		</div>
 
-		<div id="instructions">
+		<div class="general">
 			<p>GUESS AN ACTOR WHO'S PLAYED A COWBOY...</p>
-			<p>PRESS ANY KEY TO START!</p>
+			<p>PRESS SPACEBAR TO START!</p>
 		</div>
 
 		<div id="actorImage">
 		</div>
 
-		<div id="Layout">
-			<p>_ _ _ _ &nbsp _ _ _ _ _</p>
+		<div class="general">
+			<p id="brackets"></p>
 			<br>
-			<p>LETTERS USED:</p>
+			<div>
+			<p id="lettersUsed">LETTERS USED:</p>
 			<br>
-			<p>GUESSES LEFT:</p>
+			<p id="guessesLeft">GUESSES LEFT:</p>
 			<br>
-			<p>WINS: &nbsp LOSSES:</p>
+			<p id="totalWins">WINS: </p>
+			<br>
+			<p id="totalLosses">LOSSES: 0</p>
 		</div>
 	</div>
 
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>

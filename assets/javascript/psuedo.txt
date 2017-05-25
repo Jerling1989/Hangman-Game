@@ -1,0 +1,12 @@
+-- Create variables for actorName, # of guesses, letters guessed, spaces, etc
+-- Create onKey event function to start game
+-- Create function to pick actor name from array
+-- Create loop to add(push) "_ " for every letter in actorName for spaces variable
+
+-- Create onKey function for userGuess
+-- Create loop to check if userGuess == any letter in actorName
+-- if userGuess == any letter push chosen letter to spaces variable
+---- else subtract guess from guessesLeft and push letter to lettersChosen array
+
+-- if spaces == actorName while guessesLeft > 1, add +1 to user wins and restart game
+---- else spaces != actorName while guessesLeft < 1, add +1 to user losses and restart game
