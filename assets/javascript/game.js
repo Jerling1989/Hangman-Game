@@ -10,6 +10,7 @@ var actor;
 var userInput;
 
   function startGame(){
+    
 
     //Displays Total User Wins
     document.getElementById("totalWins").innerHTML=("<p>WINS: </p>" + totalWins);
@@ -46,10 +47,18 @@ var userInput;
 
     document.getElementById('brackets').innerHTML = brackets.join("");
 
+
+
   }//end startGame function
 
 
 startGame();  
+
+document.body.onkeyup = function(e){
+    if(e.keyCode == 32){
+        //your code
+
+
 
 
   document.onkeyup=function(event){
@@ -81,6 +90,9 @@ startGame();
     }
 
   }
+
+  }
+}
 
 
 
