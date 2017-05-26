@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-	font-family: 'Bangers', cursive;
+	font-family: 'Bangers';
 	font-size: 95px;
 }
 
@@ -27,7 +27,7 @@ p {
 #actorImage {
 	display: inline;
 	position: relative;
-	content: url('../images/placeholder.jpg');
+	content: url('../images/placeholder.png');
 	width: 30%;
 	margin: 5% auto;
 }
@@ -67,7 +67,7 @@ p {
 	#actorImage {
 		display: inline;
 		position: relative;
-		content: url('../images/placeholder.jpg');
+		content: url('../images/placeholder.png');
 		width: 30%;
 		margin: 5% auto;
 	}
@@ -107,7 +107,7 @@ p {
 	#actorImage {
 		display: inline;
 		position: relative;
-		content: url('../images/placeholder.jpg');
+		content: url('../images/placeholder.png');
 		width: 30%;
 		margin: 5% auto;
 	}
@@ -147,7 +147,7 @@ p {
 	#actorImage {
 		display: inline;
 		position: relative;
-		content: url('../images/placeholder.jpg');
+		content: url('../images/placeholder.png');
 		width: 30%;
 		margin: 5% auto;
 	}
