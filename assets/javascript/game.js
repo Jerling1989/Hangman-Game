@@ -69,6 +69,7 @@ startGame();
       startGame();
     }
 
+
     if(brackets.join("")== actor){
       console.log("You win the game");
       
@@ -78,6 +79,7 @@ startGame();
 
       startGame();
     }
+
   }
 
 
