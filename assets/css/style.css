@@ -27,7 +27,6 @@ p {
 #actorImage {
 	display: inline;
 	position: relative;
-	content: url('../images/placeholder.png');
 	width: 30%;
 	margin: 5% auto;
 }
