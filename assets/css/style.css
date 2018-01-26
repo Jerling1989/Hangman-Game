@@ -1,3 +1,4 @@
+/* 	GENERAL STYLES */
 body {
 	text-align: center;
 	background-image: url("../images/background.jpg");
@@ -23,6 +24,8 @@ p {
 	width: 80%;
 }
 
+
+/* IMAGE STYLE */
 #actorImage {
 	position: relative;
 	width: 30%;
@@ -31,8 +34,9 @@ p {
 
 
 
-/* MEDIA QUERIES */
+/* ~~~~~~~ MEDIA QUERIES ~~~~~~~ */
 
+/* 769px - 980px */
 @media screen and (max-width: 980px) {
 
 	h1 {
@@ -48,7 +52,7 @@ p {
 }
 
 
-
+/* 641px - 768px */
 @media screen and (max-width: 768px) {
 
 	h1 {
@@ -64,7 +68,7 @@ p {
 }
 
 
-
+/* 0px - 640px */
 @media screen and (max-width: 640px) {
 
 	h1 {
