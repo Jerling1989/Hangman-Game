@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+	<!-- PAGE TITLE -->
 	<title>COWBOY HANGMAN</title>
 
 	<!-- FAVICON -->
@@ -19,33 +20,50 @@
 
 <body>
 	
+	<!-- PAGE CONTENT -->
 	<div class="general">
+
+		<!-- GAME TITLE -->
 		<div class="general">
 			<h1>COWBOY HANGMAN</h1>
 		</div>
 
+		<!-- GAME INSTRUCTIONS -->
 		<div class="general">
 			<p>GUESS AN ACTOR WHO'S PLAYED A COWBOY...</p>
 			<p>PRESS SPACEBAR TO START!</p>
 		</div>
 
+		<!-- COWBOY SILHOUETTE -->
 		<img id="actorImage" alt="cowboy" src="assets/images/placeholder.png">
 		</div>
 
+		<!-- GAME DOM MANIPUALTION -->
 		<div class="general">
+
+			<!-- LETTER BRACKETS (EMPTY WORD) -->
 			<p id="brackets"></p>
 			<br>
+
 			<div>
+			<!-- LETTER TRACKER -->
 			<p id="lettersUsed">LETTERS USED:</p>
 			<br>
+			<!-- GUESSES COUNTER -->
 			<p id="guessesLeft">GUESSES LEFT:</p>
 			<br>
+			<!-- WIN COUNTER -->
 			<p id="totalWins">WINS: </p>
 			<br>
+			<!-- LOSS COUNTER -->
 			<p id="totalLosses">LOSSES: 0</p>
 		</div>
-	</div>
+		<!-- END GAME DOM MANIPULATION -->
 
+	</div>
+	<!-- END PAGE CONTENT -->
+
+<!-- GAME JAVASCRIPT -->
 <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>
